@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+h2{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align: center; 
+}
+table{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>test cases</h2>
+
+<table >
+  <tr>
+    <th>Test scenario</th>
+    <th>Description</th>
+    <th>Actual</th> 
+    <th>Expected</th>
+    <th>Pass/Fail</th>
+    
+  </tr>
+  <tr>
+    <td>Register case1</td>
+    <td>fill in all the textareas correctly</td>
+    <td>register success</td>
+    <td>register success</td>
+    <td>Pass</td>
+  </tr>
+  <tr>
+    <td>Register case2</td>
+    <td>fill in all the textareas,but the passwords is not the same</td>
+    <td>cannot register</td>
+    <td>cannot register</td>
+    <td>pass</td>
+  </tr>
+   <tr>
+   <td>SignIn case</td>
+   <td>fill in correct username and password</td>
+   <td>sign in successfully</td>
+   <td>sign in successfully</td>
+   <td>pass</td>
+  </tr>
+   <tr>
+   <td>add to cart case</td>
+   <td>add soda to cart and press checkout button</td>
+   <td>redirect to the billing page</td>
+   <td>redirect to the billing page</td>
+   <td>pass</td>
+  </tr>  
+</table>
+</body>
+
+</body>
+</html>
